@@ -13,8 +13,10 @@ public class podevotar {
 			
 			if(podeVotar >= 16 ) {
 				
-				JOptionPane.showMessageDialog(null, "Pde votar");
+				JOptionPane.showMessageDialog(null, "Pode votar");
 				
+			}else {
+				JOptionPane.showMessageDialog(null, "Não pode votar, ainda não tem 16 anos");
 			}
 			
 			
